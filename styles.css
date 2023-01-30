@@ -1,0 +1,35 @@
+ul :nth-child(n + 3) {
+    color: red;
+}
+
+ol :nth-child(2n) {
+    font-size: 24px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+div :nth-child(1) {
+    font-style: italic;
+    color: black;
+}
+
+button {
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin-top: 12px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    width: 200px;
+    height: 150px;
+    border-radius: 0;
+}
